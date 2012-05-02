@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C9BD280215519F5200EBF4FD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9BD280115519F5200EBF4FD /* UIKit.framework */; };
+		C9BD280415519F5200EBF4FD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9BD280315519F5200EBF4FD /* Foundation.framework */; };
+		C9BD280615519F5200EBF4FD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9BD280515519F5200EBF4FD /* CoreGraphics.framework */; };
+		C9BD280C15519F5200EBF4FD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C9BD280A15519F5200EBF4FD /* InfoPlist.strings */; };
+		C9BD280E15519F5200EBF4FD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C9BD280D15519F5200EBF4FD /* main.m */; };
+		C9BD281215519F5200EBF4FD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C9BD281115519F5200EBF4FD /* AppDelegate.m */; };
+		C9BD281515519F5200EBF4FD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9BD281415519F5200EBF4FD /* ViewController.m */; };
+		C9BD281815519F5200EBF4FD /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9BD281615519F5200EBF4FD /* ViewController.xib */; };
+		C9BD282015519F5300EBF4FD /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9BD281F15519F5300EBF4FD /* SenTestingKit.framework */; };
+		C9BD282115519F5300EBF4FD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9BD280115519F5200EBF4FD /* UIKit.framework */; };
+		C9BD282215519F5300EBF4FD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9BD280315519F5200EBF4FD /* Foundation.framework */; };
+		C9BD282A15519F5300EBF4FD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C9BD282815519F5300EBF4FD /* InfoPlist.strings */; };
+		C9BD282D15519F5300EBF4FD /* VIReceiptFormatterExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C9BD282C15519F5300EBF4FD /* VIReceiptFormatterExampleTests.m */; };
+		C9BD283D15519FAD00EBF4FD /* UILabel+VIRF.m in Sources */ = {isa = PBXBuildFile; fileRef = C9BD283815519FAD00EBF4FD /* UILabel+VIRF.m */; };
+		C9BD283E15519FAD00EBF4FD /* UIView+VIRF.m in Sources */ = {isa = PBXBuildFile; fileRef = C9BD283A15519FAD00EBF4FD /* UIView+VIRF.m */; };
+		C9BD283F15519FAD00EBF4FD /* VIReceiptFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = C9BD283C15519FAD00EBF4FD /* VIReceiptFormatter.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C9BD282315519F5300EBF4FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C9BD27F415519F5200EBF4FD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C9BD27FC15519F5200EBF4FD;
+			remoteInfo = VIReceiptFormatterExample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C9BD27FD15519F5200EBF4FD /* VIReceiptFormatterExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VIReceiptFormatterExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9BD280115519F5200EBF4FD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C9BD280315519F5200EBF4FD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C9BD280515519F5200EBF4FD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C9BD280915519F5200EBF4FD /* VIReceiptFormatterExample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VIReceiptFormatterExample-Info.plist"; sourceTree = "<group>"; };
+		C9BD280B15519F5200EBF4FD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C9BD280D15519F5200EBF4FD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C9BD280F15519F5200EBF4FD /* VIReceiptFormatterExample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VIReceiptFormatterExample-Prefix.pch"; sourceTree = "<group>"; };
+		C9BD281015519F5200EBF4FD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C9BD281115519F5200EBF4FD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C9BD281315519F5200EBF4FD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C9BD281415519F5200EBF4FD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C9BD281715519F5200EBF4FD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		C9BD281E15519F5300EBF4FD /* VIReceiptFormatterExampleTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VIReceiptFormatterExampleTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9BD281F15519F5300EBF4FD /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		C9BD282715519F5300EBF4FD /* VIReceiptFormatterExampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VIReceiptFormatterExampleTests-Info.plist"; sourceTree = "<group>"; };
+		C9BD282915519F5300EBF4FD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C9BD282B15519F5300EBF4FD /* VIReceiptFormatterExampleTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VIReceiptFormatterExampleTests.h; sourceTree = "<group>"; };
+		C9BD282C15519F5300EBF4FD /* VIReceiptFormatterExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VIReceiptFormatterExampleTests.m; sourceTree = "<group>"; };
+		C9BD283715519FAD00EBF4FD /* UILabel+VIRF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+VIRF.h"; sourceTree = "<group>"; };
+		C9BD283815519FAD00EBF4FD /* UILabel+VIRF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+VIRF.m"; sourceTree = "<group>"; };
+		C9BD283915519FAD00EBF4FD /* UIView+VIRF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+VIRF.h"; sourceTree = "<group>"; };
+		C9BD283A15519FAD00EBF4FD /* UIView+VIRF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+VIRF.m"; sourceTree = "<group>"; };
+		C9BD283B15519FAD00EBF4FD /* VIReceiptFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VIReceiptFormatter.h; sourceTree = "<group>"; };
+		C9BD283C15519FAD00EBF4FD /* VIReceiptFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VIReceiptFormatter.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C9BD27FA15519F5200EBF4FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9BD280215519F5200EBF4FD /* UIKit.framework in Frameworks */,
+				C9BD280415519F5200EBF4FD /* Foundation.framework in Frameworks */,
+				C9BD280615519F5200EBF4FD /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9BD281A15519F5300EBF4FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9BD282015519F5300EBF4FD /* SenTestingKit.framework in Frameworks */,
+				C9BD282115519F5300EBF4FD /* UIKit.framework in Frameworks */,
+				C9BD282215519F5300EBF4FD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C9BD27F215519F5200EBF4FD = {
+			isa = PBXGroup;
+			children = (
+				C9BD283615519FAD00EBF4FD /* VIReceiptFormatter */,
+				C9BD280715519F5200EBF4FD /* VIReceiptFormatterExample */,
+				C9BD282515519F5300EBF4FD /* VIReceiptFormatterExampleTests */,
+				C9BD280015519F5200EBF4FD /* Frameworks */,
+				C9BD27FE15519F5200EBF4FD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C9BD27FE15519F5200EBF4FD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C9BD27FD15519F5200EBF4FD /* VIReceiptFormatterExample.app */,
+				C9BD281E15519F5300EBF4FD /* VIReceiptFormatterExampleTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C9BD280015519F5200EBF4FD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C9BD280115519F5200EBF4FD /* UIKit.framework */,
+				C9BD280315519F5200EBF4FD /* Foundation.framework */,
+				C9BD280515519F5200EBF4FD /* CoreGraphics.framework */,
+				C9BD281F15519F5300EBF4FD /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C9BD280715519F5200EBF4FD /* VIReceiptFormatterExample */ = {
+			isa = PBXGroup;
+			children = (
+				C9BD281015519F5200EBF4FD /* AppDelegate.h */,
+				C9BD281115519F5200EBF4FD /* AppDelegate.m */,
+				C9BD281315519F5200EBF4FD /* ViewController.h */,
+				C9BD281415519F5200EBF4FD /* ViewController.m */,
+				C9BD281615519F5200EBF4FD /* ViewController.xib */,
+				C9BD280815519F5200EBF4FD /* Supporting Files */,
+			);
+			path = VIReceiptFormatterExample;
+			sourceTree = "<group>";
+		};
+		C9BD280815519F5200EBF4FD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C9BD280915519F5200EBF4FD /* VIReceiptFormatterExample-Info.plist */,
+				C9BD280A15519F5200EBF4FD /* InfoPlist.strings */,
+				C9BD280D15519F5200EBF4FD /* main.m */,
+				C9BD280F15519F5200EBF4FD /* VIReceiptFormatterExample-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C9BD282515519F5300EBF4FD /* VIReceiptFormatterExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				C9BD282B15519F5300EBF4FD /* VIReceiptFormatterExampleTests.h */,
+				C9BD282C15519F5300EBF4FD /* VIReceiptFormatterExampleTests.m */,
+				C9BD282615519F5300EBF4FD /* Supporting Files */,
+			);
+			path = VIReceiptFormatterExampleTests;
+			sourceTree = "<group>";
+		};
+		C9BD282615519F5300EBF4FD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C9BD282715519F5300EBF4FD /* VIReceiptFormatterExampleTests-Info.plist */,
+				C9BD282815519F5300EBF4FD /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C9BD283615519FAD00EBF4FD /* VIReceiptFormatter */ = {
+			isa = PBXGroup;
+			children = (
+				C9BD283B15519FAD00EBF4FD /* VIReceiptFormatter.h */,
+				C9BD283C15519FAD00EBF4FD /* VIReceiptFormatter.m */,
+				C9BD283715519FAD00EBF4FD /* UILabel+VIRF.h */,
+				C9BD283815519FAD00EBF4FD /* UILabel+VIRF.m */,
+				C9BD283915519FAD00EBF4FD /* UIView+VIRF.h */,
+				C9BD283A15519FAD00EBF4FD /* UIView+VIRF.m */,
+			);
+			path = VIReceiptFormatter;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C9BD27FC15519F5200EBF4FD /* VIReceiptFormatterExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9BD283015519F5300EBF4FD /* Build configuration list for PBXNativeTarget "VIReceiptFormatterExample" */;
+			buildPhases = (
+				C9BD27F915519F5200EBF4FD /* Sources */,
+				C9BD27FA15519F5200EBF4FD /* Frameworks */,
+				C9BD27FB15519F5200EBF4FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VIReceiptFormatterExample;
+			productName = VIReceiptFormatterExample;
+			productReference = C9BD27FD15519F5200EBF4FD /* VIReceiptFormatterExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C9BD281D15519F5300EBF4FD /* VIReceiptFormatterExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9BD283315519F5300EBF4FD /* Build configuration list for PBXNativeTarget "VIReceiptFormatterExampleTests" */;
+			buildPhases = (
+				C9BD281915519F5300EBF4FD /* Sources */,
+				C9BD281A15519F5300EBF4FD /* Frameworks */,
+				C9BD281B15519F5300EBF4FD /* Resources */,
+				C9BD281C15519F5300EBF4FD /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C9BD282415519F5300EBF4FD /* PBXTargetDependency */,
+			);
+			name = VIReceiptFormatterExampleTests;
+			productName = VIReceiptFormatterExampleTests;
+			productReference = C9BD281E15519F5300EBF4FD /* VIReceiptFormatterExampleTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C9BD27F415519F5200EBF4FD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = C9BD27F715519F5200EBF4FD /* Build configuration list for PBXProject "VIReceiptFormatterExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C9BD27F215519F5200EBF4FD;
+			productRefGroup = C9BD27FE15519F5200EBF4FD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C9BD27FC15519F5200EBF4FD /* VIReceiptFormatterExample */,
+				C9BD281D15519F5300EBF4FD /* VIReceiptFormatterExampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C9BD27FB15519F5200EBF4FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9BD280C15519F5200EBF4FD /* InfoPlist.strings in Resources */,
+				C9BD281815519F5200EBF4FD /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9BD281B15519F5300EBF4FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9BD282A15519F5300EBF4FD /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C9BD281C15519F5300EBF4FD /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C9BD27F915519F5200EBF4FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9BD280E15519F5200EBF4FD /* main.m in Sources */,
+				C9BD281215519F5200EBF4FD /* AppDelegate.m in Sources */,
+				C9BD281515519F5200EBF4FD /* ViewController.m in Sources */,
+				C9BD283D15519FAD00EBF4FD /* UILabel+VIRF.m in Sources */,
+				C9BD283E15519FAD00EBF4FD /* UIView+VIRF.m in Sources */,
+				C9BD283F15519FAD00EBF4FD /* VIReceiptFormatter.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9BD281915519F5300EBF4FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9BD282D15519F5300EBF4FD /* VIReceiptFormatterExampleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C9BD282415519F5300EBF4FD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C9BD27FC15519F5200EBF4FD /* VIReceiptFormatterExample */;
+			targetProxy = C9BD282315519F5300EBF4FD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C9BD280A15519F5200EBF4FD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C9BD280B15519F5200EBF4FD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C9BD281615519F5200EBF4FD /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C9BD281715519F5200EBF4FD /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+		C9BD282815519F5300EBF4FD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C9BD282915519F5300EBF4FD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C9BD282E15519F5300EBF4FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		C9BD282F15519F5300EBF4FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C9BD283115519F5300EBF4FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VIReceiptFormatterExample/VIReceiptFormatterExample-Prefix.pch";
+				INFOPLIST_FILE = "VIReceiptFormatterExample/VIReceiptFormatterExample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C9BD283215519F5300EBF4FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VIReceiptFormatterExample/VIReceiptFormatterExample-Prefix.pch";
+				INFOPLIST_FILE = "VIReceiptFormatterExample/VIReceiptFormatterExample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C9BD283415519F5300EBF4FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/VIReceiptFormatterExample.app/VIReceiptFormatterExample";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VIReceiptFormatterExample/VIReceiptFormatterExample-Prefix.pch";
+				INFOPLIST_FILE = "VIReceiptFormatterExampleTests/VIReceiptFormatterExampleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		C9BD283515519F5300EBF4FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/VIReceiptFormatterExample.app/VIReceiptFormatterExample";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VIReceiptFormatterExample/VIReceiptFormatterExample-Prefix.pch";
+				INFOPLIST_FILE = "VIReceiptFormatterExampleTests/VIReceiptFormatterExampleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C9BD27F715519F5200EBF4FD /* Build configuration list for PBXProject "VIReceiptFormatterExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9BD282E15519F5300EBF4FD /* Debug */,
+				C9BD282F15519F5300EBF4FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9BD283015519F5300EBF4FD /* Build configuration list for PBXNativeTarget "VIReceiptFormatterExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9BD283115519F5300EBF4FD /* Debug */,
+				C9BD283215519F5300EBF4FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C9BD283315519F5300EBF4FD /* Build configuration list for PBXNativeTarget "VIReceiptFormatterExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9BD283415519F5300EBF4FD /* Debug */,
+				C9BD283515519F5300EBF4FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C9BD27F415519F5200EBF4FD /* Project object */;
+}
