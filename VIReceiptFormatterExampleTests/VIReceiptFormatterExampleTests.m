@@ -97,7 +97,9 @@
     [receiptDictionary setObject:thanksString forKey:@"thanks"];
     
     VIReceiptFormatter *receiptFormatter = [[VIReceiptFormatter alloc] init];
-    UIView *receiptView = [receiptFormatter receiptDictionaryToView:receiptDictionary receiptWidth:widthFloat];
+    UIView *receiptView = [receiptFormatter receiptDictionaryToView:receiptDictionary
+                                                       receiptWidth:widthFloat
+                                                   saveToPhotoAlbum:NO];
     
     NSAssert((receiptView.frame.size.width == widthFloat), @"Receipt view is wrong width (%f), it should be %f", receiptView.frame.size.width, widthFloat);
     NSAssert((receiptView.frame.size.height == heightFloat), @"Receipt view is wrong height (%f), it should be %f", receiptView.frame.size.height, heightFloat);

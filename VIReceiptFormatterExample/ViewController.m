@@ -130,7 +130,9 @@
     
     // Create the receipt view
     VIReceiptFormatter *receiptFormatter = [[VIReceiptFormatter alloc] init];
-    UIView *receiptView = [receiptFormatter receiptDictionaryToView:receiptDictionary receiptWidth:376.0f];
+    UIView *receiptView = [receiptFormatter receiptDictionaryToView:receiptDictionary
+                                                       receiptWidth:376.0f
+                                                   saveToPhotoAlbum:YES];
     
     return receiptView;
 }

@@ -7,8 +7,19 @@
 //
 
 #import "UIView+VIRF.h"
+#import <QuartzCore/QuartzCore.h>
 
 @implementation UIView (VIRF)
+
+- (UIImage *)asImage
+{
+    UIGraphicsBeginImageContext(self.bounds.size);
+    [self.layer renderInContext:UIGraphicsGetCurrentContext()];
+    UIImage *image = UIGraphicsGetImageFromCurrentImageContext();
+    UIGraphicsEndImageContext();
+    
+    return image;
+}
 
 - (UIView *)addSubviewToBottom:(UIView *)view
 {

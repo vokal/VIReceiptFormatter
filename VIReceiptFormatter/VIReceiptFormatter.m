@@ -7,6 +7,7 @@
 //
 
 #import "VIReceiptFormatter.h"
+#import "UIImage+VIRF.h"
 #import "UILabel+VIRF.h"
 #import "UIView+VIRF.h"
 
@@ -18,7 +19,9 @@
 
 @implementation VIReceiptFormatter
 
-- (UIView *)receiptDictionaryToView:(NSDictionary *)receiptDictionary receiptWidth:(CGFloat)widthFloat
+- (UIView *)receiptDictionaryToView:(NSDictionary *)receiptDictionary
+                       receiptWidth:(CGFloat)widthFloat
+                   saveToPhotoAlbum:(BOOL)saveToPhotoAlbumBool
 {
     UIView *receiptView = [[UIView alloc] initWithFrame:CGRectMake(0.0f, 0.0f, widthFloat, 0.0f)];
     [receiptView setBackgroundColor:kViewBackgroundColor];

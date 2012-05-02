@@ -10,6 +10,8 @@
 
 @interface VIReceiptFormatter : NSObject
 
-- (UIView *)receiptDictionaryToView:(NSDictionary *)receiptDictionary receiptWidth:(CGFloat)widthFloat;
+- (UIView *)receiptDictionaryToView:(NSDictionary *)receiptDictionary
+                       receiptWidth:(CGFloat)widthFloat
+                   saveToPhotoAlbum:(BOOL)saveToPhotoAlbumBool;
 
 @end

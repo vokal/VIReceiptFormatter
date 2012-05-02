@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C920532E1551C9B400ED1772 /* UIImage+VIRF.m in Sources */ = {isa = PBXBuildFile; fileRef = C920532D1551C9B400ED1772 /* UIImage+VIRF.m */; };
+		C92053311551CA0700ED1772 /* example.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C92053301551CA0700ED1772 /* example.jpg */; };
 		C9BD280215519F5200EBF4FD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9BD280115519F5200EBF4FD /* UIKit.framework */; };
 		C9BD280415519F5200EBF4FD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9BD280315519F5200EBF4FD /* Foundation.framework */; };
 		C9BD280615519F5200EBF4FD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9BD280515519F5200EBF4FD /* CoreGraphics.framework */; };
@@ -36,6 +38,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C920532C1551C9B400ED1772 /* UIImage+VIRF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+VIRF.h"; sourceTree = "<group>"; };
+		C920532D1551C9B400ED1772 /* UIImage+VIRF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+VIRF.m"; sourceTree = "<group>"; };
+		C92053301551CA0700ED1772 /* example.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = example.jpg; sourceTree = "<group>"; };
 		C9BD27FD15519F5200EBF4FD /* VIReceiptFormatterExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VIReceiptFormatterExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9BD280115519F5200EBF4FD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		C9BD280315519F5200EBF4FD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -87,6 +92,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C92053321551CA0A00ED1772 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C92053301551CA0700ED1772 /* example.jpg */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		C9BD27F215519F5200EBF4FD = {
 			isa = PBXGroup;
 			children = (
@@ -126,6 +139,7 @@
 				C9BD281315519F5200EBF4FD /* ViewController.h */,
 				C9BD281415519F5200EBF4FD /* ViewController.m */,
 				C9BD281615519F5200EBF4FD /* ViewController.xib */,
+				C92053321551CA0A00ED1772 /* Resources */,
 				C9BD280815519F5200EBF4FD /* Supporting Files */,
 			);
 			path = VIReceiptFormatterExample;
@@ -166,6 +180,8 @@
 			children = (
 				C9BD283B15519FAD00EBF4FD /* VIReceiptFormatter.h */,
 				C9BD283C15519FAD00EBF4FD /* VIReceiptFormatter.m */,
+				C920532C1551C9B400ED1772 /* UIImage+VIRF.h */,
+				C920532D1551C9B400ED1772 /* UIImage+VIRF.m */,
 				C9BD283715519FAD00EBF4FD /* UILabel+VIRF.h */,
 				C9BD283815519FAD00EBF4FD /* UILabel+VIRF.m */,
 				C9BD283915519FAD00EBF4FD /* UIView+VIRF.h */,
@@ -246,6 +262,7 @@
 			files = (
 				C9BD280C15519F5200EBF4FD /* InfoPlist.strings in Resources */,
 				C9BD281815519F5200EBF4FD /* ViewController.xib in Resources */,
+				C92053311551CA0700ED1772 /* example.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,6 +303,7 @@
 				C9BD283D15519FAD00EBF4FD /* UILabel+VIRF.m in Sources */,
 				C9BD283E15519FAD00EBF4FD /* UIView+VIRF.m in Sources */,
 				C9BD283F15519FAD00EBF4FD /* VIReceiptFormatter.m in Sources */,
+				C920532E1551C9B400ED1772 /* UIImage+VIRF.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -457,6 +475,7 @@
 				C9BD283215519F5300EBF4FD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C9BD283315519F5300EBF4FD /* Build configuration list for PBXNativeTarget "VIReceiptFormatterExampleTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +484,7 @@
 				C9BD283515519F5300EBF4FD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

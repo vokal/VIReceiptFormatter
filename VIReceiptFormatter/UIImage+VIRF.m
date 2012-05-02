@@ -1,16 +1,18 @@
 //
-//  UIView+VIRF.h
+//  UIImage+VIRF.m
 //  VIReceiptFormatter
 //
 //  Created by Bracken Spencer <bracken.spencer@vokalinteractive.com>.
 //  Copyright (c) 2012 Vokal Interactive. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "UIImage+VIRF.h"
 
-@interface UIView (VIRF)
+@implementation UIImage (VIRF)
 
-- (UIImage *)asImage;
-- (UIView *)addSubviewToBottom:(UIView *)view;
+- (void)saveToPhotoAlbum
+{
+    UIImageWriteToSavedPhotosAlbum(self, nil, nil, nil);
+}
 
 @end
