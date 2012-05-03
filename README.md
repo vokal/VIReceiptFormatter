@@ -10,7 +10,8 @@ See included example project.
 
 - [GitHub](https://github.com/bracken-dev)
 - [Twitter](https://twitter.com/brackendev)
+- [Vokal Interactive](http://vokalinteractive.com/)
 
 ## Example output
 
-![Screenshot](https://github.com/bracken-dev/VIReceiptFormatter/raw/master/VIReceiptFormatterExample/example.jpg)
+![Screenshot](https://github.com/bracken-dev/VIReceiptFormatter/raw/master/VIReceiptFormatterExample/example.jpg) 	
